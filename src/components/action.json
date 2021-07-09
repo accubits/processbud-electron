@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "idname": "horizontal",
+        "Name": "Open Browser",
+        "desc": "Triggers browser open action",
+        "sourcePosition": "right",
+        "className": "dark-node",
+        "type": "InputNode",
+        "animated":true,
+        "targetPosition": "left",
+        "style": {
+            "background": "#fff",
+            "width": 200,
+            "fontSize": "20px",
+            "fontFamily": "Helvetica",
+            "boxShadow": "5px 5px 5px 0px rgba(0,0,0,.10)"
+        }
+       
+    },
+    {
+        "id": 2,
+        "idname": "horizontal",
+        "sourcePosition": "right",
+        "type": "InputNode2",
+        "animated":true,
+        "targetPosition": "left",
+        "Name": "Close Browser",
+        "desc": "Triggers browser open action",
+        "style": {
+            "background": "#fff",
+            "width": 200,
+            "fontSize": "20px", 
+            "fontFamily": "Helvetica",
+            "boxShadow": "5px 5px 5px 0px rgba(0,0,0,.10)"
+        }
+    },
+    {
+        "id":3,
+        "idname": "horizontal",
+        "sourcePosition": "right",
+        "type": "InputNode3",
+        "animated":true,
+        "targetPosition": "left",
+        "Name": "Set SMTP",
+        "desc": "Triggers browser open action",
+        "style": {
+            "background": "#fff",
+            "width": 200,
+            "fontSize": "20px",
+            "fontFamily": "Helvetica",
+            "boxShadow": "5px 5px 5px 0px rgba(0,0,0,.10)"
+        }
+    }
+]
+

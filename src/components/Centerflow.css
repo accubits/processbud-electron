@@ -1,0 +1,136 @@
+/* .react-flow {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    overflow: show !important;
+} */
+
+/* .btn-1{
+  background-color: #DBECF7;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+} */
+
+/* 
+.circle-1{
+    color: #009BF9;
+} */
+
+.box-container{
+    border-radius:5px;
+    box-shadow:0 0 5px #ccc;
+    display:inline-block;
+    min-width:200px;
+    padding:15px 0 20px
+}
+.box-container ul{
+    margin:0;
+    padding:0
+}
+.box-container ul li{
+    list-style:none;
+    margin:0 0 0 30px;
+    position:relative
+}
+.box-container ul li:nth-child(1){
+    background:#dff1ff;
+    border-radius:8px 0 0 8px;
+    font-size:14px;
+    margin-bottom:20px;
+    padding:5px;
+}
+.box-container ul li:nth-child(1):before{
+    color:#2590d2;
+    content:"•";
+    font-size:20px;
+    left:-15px;
+    position:absolute;
+    top:3px;
+}
+.box-container ul li:nth-child(2){
+    color:#90949d;
+    font-size:12px;
+}
+.box-container ul li:nth-child(2) span{
+    display:inline-block;
+    margin:0 20px 0 0;
+    padding:0 0 0 18px;
+    position:relative;
+    width: 10px;
+    height: 10px;
+}
+.box-container ul li:nth-child(2) .ico-edit:before{
+    /* background:#ccc; */
+    content:"";
+    height:10px;
+    left:0;
+    position:absolute;
+    top:2px;
+    width:10px;
+    
+}
+.box-container ul li:nth-child(2) .ico-dele:before{
+    background:#ccc;
+    content:"";
+    height:10px;
+    left:0;
+    position:absolute;
+    top:2px;
+    width:10px;
+}
+.node-2 ul li:nth-child(1){
+    background:#DAF1EC;
+    border-radius:8px 0 0 8px;
+    font-size:14px;
+    margin-bottom:20px;
+    padding:5px;
+}
+
+.node-2 ul li:nth-child(1):before{
+    color: #08D4A1;
+    content:"•";
+    font-size:20px;
+    left:-15px;
+    position:absolute;
+    top:3px;
+}
+
+.node-3 ul li:nth-child(1){
+    background:#F4EBDC;
+    border-radius:8px 0 0 8px;
+    font-size:14px;
+    margin-bottom:20px;
+    padding:5px;
+}
+
+.node-3 ul li:nth-child(1):before{
+    color: #FF9E00;
+    content:"•";
+    font-size:20px;
+    left:-15px;
+    position:absolute;
+    top:3px;
+}
+.node-4 ul li:nth-child(1){
+    background:#F4DBDC;
+    border-radius:8px 0 0 8px;
+    font-size:14px;
+    margin-bottom:20px;
+    padding:5px;
+}
+
+.node-4 ul li:nth-child(1):before{
+    color: #FF0000;
+    content:"•";
+    font-size:20px;
+    left:-15px;
+    position:absolute;
+    top:3px;
+}
